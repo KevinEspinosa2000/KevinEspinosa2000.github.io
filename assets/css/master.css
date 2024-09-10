@@ -1,0 +1,110 @@
+/* Reseteo básico para eliminar márgenes y padding por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo básico del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* Estilo de la cabecera */
+header {
+    background-color: #004d40; /* Color de fondo verde oscuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo de los enlaces de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* Color blanco para los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+nav ul li a:hover {
+    /* Se eliminan las propiedades hover para mantener el mismo estilo */
+    text-decoration: none;
+    color: white; /* Mantiene el color blanco al pasar el cursor */
+}
+
+/* Estilo de las secciones */
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ffffff; /* Color blanco para el fondo de las secciones */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos de secciones */
+section h1 {
+    color: #004d40; /* Color verde oscuro para el título principal */
+    border-bottom: 2px solid #004d40; /* Línea verde oscura debajo del título principal */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center; /* Centra el título principal */
+}
+
+section h2 {
+    color: #00796b; /* Color verde medio para los subtítulos */
+    border-bottom: 1px solid #00796b; /* Línea verde medio debajo de los subtítulos */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: left; /* Alinea el subtítulo a la izquierda */
+}
+
+/* Estilo de los artículos dentro de las secciones */
+article {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #e0f2f1; /* Color de fondo verde muy claro para los artículos */
+    border-radius: 5px;
+}
+
+/* Estilo para los encabezados dentro de los artículos */
+article h2 {
+    color: #004d40; /* Color verde oscuro para los encabezados secundarios */
+    text-align: left; /* Alinea el encabezado secundario a la izquierda */
+}
+
+article h3 {
+    color: #00796b; /* Color verde medio para los encabezados terciarios */
+    margin-top: 10px;
+    text-align: left; /* Alinea el encabezado terciario a la izquierda */
+}
+
+/* Estilo de los párrafos dentro de los artículos */
+article p {
+    margin-top: 5px;
+    color: #333; /* Color oscuro para el texto de los párrafos */
+}
+
+/* Estilo para los enlaces dentro de los artículos */
+article a {
+    color: #007bff; /* Color azul para los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+article a:hover {
+    /* Se eliminan las propiedades hover para mantener el mismo estilo */
+    text-decoration: none;
+    color: #007bff; /* Mantiene el color azul al pasar el cursor */
+}
